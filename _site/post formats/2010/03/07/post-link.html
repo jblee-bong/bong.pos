@@ -33,7 +33,7 @@
 <meta name="twitter:site" content="@mmistakes" />
 <meta name="twitter:creator" content="@mmistakes" />
 <script type="application/ld+json">
-{"@type":"BlogPosting","headline":"Post: Link","dateModified":"2010-03-07T00:00:00+09:00","datePublished":"2010-03-07T00:00:00+09:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://geneuin.github.io//post%20formats/2010/03/07/post-link.html"},"author":{"@type":"Person","name":"Michael Rose"},"description":"This theme supports link posts, made famous by John Gruber. To use, just add link: http://url-you-want-linked to the post’s YAML front matter and you’re done.","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://geneuin.github.io//images/so-simple-site-logo.png"},"name":"Michael Rose"},"url":"https://geneuin.github.io//post%20formats/2010/03/07/post-link.html","@context":"https://schema.org"}</script>
+{"@type":"BlogPosting","headline":"Post: Link","dateModified":"2010-03-07T00:00:00+09:00","datePublished":"2010-03-07T00:00:00+09:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://geneuin.github.io//post%20formats/2010/03/07/post-link.html"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://geneuin.github.io//images/so-simple-site-logo.png"},"name":"Michael Rose"},"author":{"@type":"Person","name":"Michael Rose"},"description":"This theme supports link posts, made famous by John Gruber. To use, just add link: http://url-you-want-linked to the post’s YAML front matter and you’re done.","url":"https://geneuin.github.io//post%20formats/2010/03/07/post-link.html","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -131,13 +131,15 @@
 
         
   <h3 class="page-taxonomies-title">Categories</h3>
+  
   <ul class="page-taxonomies"><li class="page-taxonomy"><a class="p-category" href="/categories/#post-formats" title="Pages filed under Post Formats">Post Formats</a></li>
   </ul>
 
 
         
   <h3 class="page-taxonomies-title">Tags</h3>
-  <ul class="page-taxonomies"><li class="page-taxonomy"><a href="/tags/#link" title="Pages tagged link" rel="tag">link</a></li><li class="page-taxonomy"><a href="/tags/#post-formats" title="Pages tagged Post Formats" rel="tag">Post Formats</a></li>
+  
+  <ul class="page-taxonomies"><li class="page-taxonomy"><a href="/tags/#post-formats" title="Pages tagged Post Formats" rel="tag">Post Formats</a></li><li class="page-taxonomy"><a href="/tags/#link" title="Pages tagged link" rel="tag">link</a></li>
   </ul>
 
 
@@ -210,6 +212,35 @@
   <script src="/assets/js/main.min.js"></script>
   <script src="https://use.fontawesome.com/releases/v5.0.12/js/all.js"></script>
 
+
+<!-- MathJax -->
+
+<script>
+// http://docs.mathjax.org/en/latest/upgrading/v2.html
+MathJax = {
+  tex: {
+      tags: "ams"    // eq numbering options: none, ams, all
+  },
+  options: {
+    renderActions: {
+      // for mathjax 3, handle <script "math/tex"> blocks inserted by kramdown
+      find: [10, function (doc) {
+        for (const node of document.querySelectorAll('script[type^="math/tex"]')) {
+          const display = !!node.type.match(/; *mode=display/);
+          const math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display);
+          const text = document.createTextNode('');
+          node.parentNode.replaceChild(text, node);
+          math.start = {node: text, delim: '', n: 0};
+          math.end = {node: text, delim: '', n: 0};
+          doc.math.push(math);
+        }
+      }, '']
+    }
+  }
+}
+</script>
+
+<script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
 
   </body>
 
