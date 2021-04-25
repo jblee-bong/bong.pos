@@ -33,7 +33,7 @@
 <meta name="twitter:site" content="@mmistakes" />
 <meta name="twitter:creator" content="@mmistakes" />
 <script type="application/ld+json">
-{"@type":"BlogPosting","headline":"Markup: HTML Elements and Formatting","dateModified":"2018-02-02T00:16:49+09:00","datePublished":"2013-01-11T00:00:00+09:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://geneuin.github.io//markup/2013/01/11/markup-html-elements-and-formatting.html"},"author":{"@type":"Person","name":"Michael Rose"},"description":"A variety of common HTML elements to demonstrate the theme’s stylesheet and verify they have been styled appropriately.","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://geneuin.github.io//images/so-simple-site-logo.png"},"name":"Michael Rose"},"url":"https://geneuin.github.io//markup/2013/01/11/markup-html-elements-and-formatting.html","@context":"https://schema.org"}</script>
+{"@type":"BlogPosting","headline":"Markup: HTML Elements and Formatting","dateModified":"2018-02-02T00:16:49+09:00","datePublished":"2013-01-11T00:00:00+09:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://geneuin.github.io//markup/2013/01/11/markup-html-elements-and-formatting.html"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://geneuin.github.io//images/so-simple-site-logo.png"},"name":"Michael Rose"},"author":{"@type":"Person","name":"Michael Rose"},"description":"A variety of common HTML elements to demonstrate the theme’s stylesheet and verify they have been styled appropriately.","url":"https://geneuin.github.io//markup/2013/01/11/markup-html-elements-and-formatting.html","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -131,6 +131,7 @@
 
         
   <h3 class="page-taxonomies-title">Categories</h3>
+  
   <ul class="page-taxonomies"><li class="page-taxonomy"><a class="p-category" href="/categories/#markup" title="Pages filed under Markup">Markup</a></li>
   </ul>
 
@@ -493,6 +494,35 @@
   <script src="/assets/js/main.min.js"></script>
   <script src="https://use.fontawesome.com/releases/v5.0.12/js/all.js"></script>
 
+
+<!-- MathJax -->
+
+<script>
+// http://docs.mathjax.org/en/latest/upgrading/v2.html
+MathJax = {
+  tex: {
+      tags: "ams"    // eq numbering options: none, ams, all
+  },
+  options: {
+    renderActions: {
+      // for mathjax 3, handle <script "math/tex"> blocks inserted by kramdown
+      find: [10, function (doc) {
+        for (const node of document.querySelectorAll('script[type^="math/tex"]')) {
+          const display = !!node.type.match(/; *mode=display/);
+          const math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display);
+          const text = document.createTextNode('');
+          node.parentNode.replaceChild(text, node);
+          math.start = {node: text, delim: '', n: 0};
+          math.end = {node: text, delim: '', n: 0};
+          doc.math.push(math);
+        }
+      }, '']
+    }
+  }
+}
+</script>
+
+<script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
 
   </body>
 

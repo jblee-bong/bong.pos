@@ -33,7 +33,7 @@
 <meta name="twitter:site" content="@mmistakes" />
 <meta name="twitter:creator" content="@mmistakes" />
 <script type="application/ld+json">
-{"@type":"BlogPosting","headline":"Layout: Excerpt (Generated with Separator Tag)","dateModified":"2017-03-10T02:32:16+09:00","datePublished":"2012-03-14T00:00:00+09:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://geneuin.github.io//layout/uncategorized/2012/03/14/layout-excerpt-generated.html"},"author":{"@type":"Person","name":"Michael Rose"},"description":"This is the post content. Archive-index pages should display an auto-generated excerpt of all the content preceding the excerpt_separator, as defined in the YAML Front Matter or globally in _config.yml. Be sure to test the formatting of the auto-generated excerpt, to ensure that it doesn’t create any layout problems.","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://geneuin.github.io//images/so-simple-site-logo.png"},"name":"Michael Rose"},"url":"https://geneuin.github.io//layout/uncategorized/2012/03/14/layout-excerpt-generated.html","@context":"https://schema.org"}</script>
+{"@type":"BlogPosting","headline":"Layout: Excerpt (Generated with Separator Tag)","dateModified":"2017-03-10T02:32:16+09:00","datePublished":"2012-03-14T00:00:00+09:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://geneuin.github.io//layout/uncategorized/2012/03/14/layout-excerpt-generated.html"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://geneuin.github.io//images/so-simple-site-logo.png"},"name":"Michael Rose"},"author":{"@type":"Person","name":"Michael Rose"},"description":"This is the post content. Archive-index pages should display an auto-generated excerpt of all the content preceding the excerpt_separator, as defined in the YAML Front Matter or globally in _config.yml. Be sure to test the formatting of the auto-generated excerpt, to ensure that it doesn’t create any layout problems.","url":"https://geneuin.github.io//layout/uncategorized/2012/03/14/layout-excerpt-generated.html","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -131,12 +131,14 @@
 
         
   <h3 class="page-taxonomies-title">Categories</h3>
+  
   <ul class="page-taxonomies"><li class="page-taxonomy"><a class="p-category" href="/categories/#layout" title="Pages filed under Layout">Layout</a></li><li class="page-taxonomy"><a class="p-category" href="/categories/#uncategorized" title="Pages filed under Uncategorized">Uncategorized</a></li>
   </ul>
 
 
         
   <h3 class="page-taxonomies-title">Tags</h3>
+  
   <ul class="page-taxonomies"><li class="page-taxonomy"><a href="/tags/#content" title="Pages tagged content" rel="tag">content</a></li><li class="page-taxonomy"><a href="/tags/#excerpt" title="Pages tagged excerpt" rel="tag">excerpt</a></li><li class="page-taxonomy"><a href="/tags/#layout" title="Pages tagged layout" rel="tag">layout</a></li>
   </ul>
 
@@ -212,6 +214,35 @@
   <script src="/assets/js/main.min.js"></script>
   <script src="https://use.fontawesome.com/releases/v5.0.12/js/all.js"></script>
 
+
+<!-- MathJax -->
+
+<script>
+// http://docs.mathjax.org/en/latest/upgrading/v2.html
+MathJax = {
+  tex: {
+      tags: "ams"    // eq numbering options: none, ams, all
+  },
+  options: {
+    renderActions: {
+      // for mathjax 3, handle <script "math/tex"> blocks inserted by kramdown
+      find: [10, function (doc) {
+        for (const node of document.querySelectorAll('script[type^="math/tex"]')) {
+          const display = !!node.type.match(/; *mode=display/);
+          const math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display);
+          const text = document.createTextNode('');
+          node.parentNode.replaceChild(text, node);
+          math.start = {node: text, delim: '', n: 0};
+          math.end = {node: text, delim: '', n: 0};
+          doc.math.push(math);
+        }
+      }, '']
+    }
+  }
+}
+</script>
+
+<script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
 
   </body>
 
