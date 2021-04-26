@@ -139,6 +139,11 @@ var store = [{
         "tags": ["test"],
         "url": "https://geneuin.github.io//test/2021/04/26/Test-post.html"
       },{
+        "title": "테스트용 포스트입니다2",
+        "excerpt":"Test 용 포스팅입니다 !     Table of Contents    123123 ","categories": ["test"],
+        "tags": ["test"],
+        "url": "https://geneuin.github.io//test/2021/04/26/test2.html"
+      },{
         "title": "Chocolate Chip Cookies",
         "excerpt":"A chocolate chip cookie is a drop cookie that originated in the United States and features chocolate chips as its distinguishing ingredient. The traditional recipe combines a dough composed of butter and both brown and white sugar with semi-sweet chocolate chips. Variations include recipes with other types of chocolate as...","categories": [],
         "tags": [],
