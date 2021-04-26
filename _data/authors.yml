@@ -10,6 +10,23 @@ Billy Rick:
       url: https://twitter.com/billyrick
       icon: fab fa-twitter-square
 
+# 박상길
+gil:
+  name: Sang-gli Park
+  picture: /images/michael-rose-photo.jpg
+  email:
+  # twitter: mmistakes
+  links:
+    # - title: Twitter
+    #   url: https://twitter.com/mmistakes
+    #   icon: fab fa-twitter-square
+    # - title: Instagram
+    #   url: https://instagram.com/mmistakes
+    #   icon: fab fa-instagram
+    - title: GitHub
+      url: https://github.com/mmistakes
+      icon: fab fa-github-square
+
 Cornelius Fiddlebone:
   name: Cornelius Fiddlebone
   picture: /images/bio-photo.jpg
