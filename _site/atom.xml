@@ -1,4 +1,598 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://geneuin.github.io//atom.xml" rel="self" type="application/atom+xml" /><link href="https://geneuin.github.io//" rel="alternate" type="text/html" /><updated>2021-04-27T03:20:13+09:00</updated><id>https://geneuin.github.io//atom.xml</id><title type="html">Geneuin Development Site</title><subtitle>기업 지뉴인 입니다.</subtitle><author><name>Geneuin</name></author><entry><title type="html">테스트용 포스트입니다2</title><link href="https://geneuin.github.io//test/2021/04/26/test2.html" rel="alternate" type="text/html" title="테스트용 포스트입니다2" /><published>2021-04-26T03:02:00+09:00</published><updated>2021-04-26T03:02:00+09:00</updated><id>https://geneuin.github.io//test/2021/04/26/test2</id><content type="html" xml:base="https://geneuin.github.io//test/2021/04/26/test2.html">&lt;p&gt;Test 용 포스팅입니다 !&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://geneuin.github.io//atom.xml" rel="self" type="application/atom+xml" /><link href="https://geneuin.github.io//" rel="alternate" type="text/html" /><updated>2021-04-28T00:33:19+09:00</updated><id>https://geneuin.github.io//atom.xml</id><title type="html">Geneuin Development Site</title><subtitle>기업 지뉴인 입니다.</subtitle><author><name>Geneuin</name></author><entry><title type="html">블로그 가이드 -6- 목차 작성방법</title><link href="https://geneuin.github.io//blog/2021/04/28/title-6-%EB%AA%A9%EC%B0%A8.html" rel="alternate" type="text/html" title="블로그 가이드 -6- 목차 작성방법" /><published>2021-04-28T00:00:00+09:00</published><updated>2021-04-28T00:00:00+09:00</updated><id>https://geneuin.github.io//blog/2021/04/28/title-6-%EB%AA%A9%EC%B0%A8</id><content type="html" xml:base="https://geneuin.github.io//blog/2021/04/28/title-6-%EB%AA%A9%EC%B0%A8.html">&lt;h1 id=&quot;목차-기능&quot;&gt;목차 기능&lt;/h1&gt;
+
+&lt;p&gt;마크다운으로 작성한 헤더에 대해 목차를 표시할 수 있습니다. ` # ` , &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;## &lt;/code&gt; 등&lt;/p&gt;
+
+&lt;p&gt;포스트 내에 목차를 표시할려면&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;{::options parse_block_html=&quot;true&quot; /}
+&amp;lt;div id=&quot;entry-table-of-contents&quot; class=&quot;toc-wrapper&quot;&amp;gt;
+&amp;lt;h2 id=&quot;toc-toggle&quot; class=&quot;no_toc&quot;&amp;gt;
+  Table of Contents &amp;lt;i class=&quot;toc-toggle-icon fas fa-chevron-down&quot;&amp;gt;&amp;lt;/i&amp;gt;
+&amp;lt;/h2&amp;gt;
+1. toc
+{:toc}
+&amp;lt;/div&amp;gt;
+{::options parse_block_html=&quot;false&quot; /}
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;를 작성해 주기만하면 됩니다.&lt;/p&gt;
+
+&lt;p&gt;예 )&lt;/p&gt;
+
+&lt;div id=&quot;entry-table-of-contents&quot; class=&quot;toc-wrapper&quot;&gt;
+  &lt;h2 id=&quot;toc-toggle&quot; class=&quot;no_toc&quot;&gt;
+  Table of Contents &lt;i class=&quot;toc-toggle-icon fas fa-chevron-down&quot;&gt;&lt;/i&gt;
+&lt;/h2&gt;
+&lt;ol id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#목차-기능&quot; id=&quot;markdown-toc-목차-기능&quot;&gt;목차 기능&lt;/a&gt;    &lt;ol&gt;
+      &lt;li&gt;&lt;a href=&quot;#참고&quot; id=&quot;markdown-toc-참고&quot;&gt;참고&lt;/a&gt;&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;예시 )&lt;/p&gt;
+
+&lt;h2 id=&quot;참고&quot;&gt;참고&lt;/h2&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://mmistakes.github.io/so-simple-theme/layout/layout-table-of-contents/&quot;&gt;참고 사이트&lt;/a&gt;&lt;/p&gt;</content><author><name>Geneuin</name></author><category term="Blog" /><summary type="html">목차 기능</summary></entry><entry><title type="html">블로그 가이드 -7- 유튜브 삽입 방법</title><link href="https://geneuin.github.io//blog/2021/04/28/title-7-%EC%9C%A0%ED%8A%9C%EB%B8%8C-%EC%82%BD%EC%9E%85.html" rel="alternate" type="text/html" title="블로그 가이드 -7- 유튜브 삽입 방법" /><published>2021-04-28T00:00:00+09:00</published><updated>2021-04-28T00:00:00+09:00</updated><id>https://geneuin.github.io//blog/2021/04/28/title-7-%EC%9C%A0%ED%8A%9C%EB%B8%8C%20%EC%82%BD%EC%9E%85</id><content type="html" xml:base="https://geneuin.github.io//blog/2021/04/28/title-7-%EC%9C%A0%ED%8A%9C%EB%B8%8C-%EC%82%BD%EC%9E%85.html">&lt;h1 id=&quot;유튜브-삽입-방법&quot;&gt;유튜브 삽입 방법&lt;/h1&gt;
+
+&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;responsive-embed responsive-embed-16by9&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;iframe&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;https://www.youtube.com/watch?v=-PVofD2A9t8&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;frameborder=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;0&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;allowfullscreen&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/iframe&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;또는&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/blogGuide/youtube.png&quot; alt=&quot;youtube&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;유튜브가 삽입될 곳에 url 부분만 바꿔 사용가능합니다.&lt;/p&gt;
+
+&lt;p&gt;예시 )&lt;/p&gt;
+
+&lt;div class=&quot;responsive-embed responsive-embed-16by9&quot;&gt;
+  &lt;iframe src=&quot;https://youtu.be/adLGHcj_fmA&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;참고&quot;&gt;참고&lt;/h2&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://mmistakes.github.io/so-simple-theme/post%20formats/post-video-youtube/&quot;&gt;참고 사이트&lt;/a&gt;&lt;/p&gt;</content><author><name>Geneuin</name></author><category term="Blog" /><summary type="html">유튜브 삽입 방법</summary></entry><entry><title type="html">블로그 가이드 -3- 마크다운 사용법</title><link href="https://geneuin.github.io//blog/2021/04/28/title-3-%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4-%EC%82%AC%EC%9A%A9%EB%B2%95.html" rel="alternate" type="text/html" title="블로그 가이드 -3- 마크다운 사용법" /><published>2021-04-28T00:00:00+09:00</published><updated>2021-04-28T00:00:00+09:00</updated><id>https://geneuin.github.io//blog/2021/04/28/title-3-%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4-%EC%82%AC%EC%9A%A9%EB%B2%95</id><content type="html" xml:base="https://geneuin.github.io//blog/2021/04/28/title-3-%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4-%EC%82%AC%EC%9A%A9%EB%B2%95.html">&lt;h1 id=&quot;마크다운-기본-문법&quot;&gt;마크다운 기본 문법&lt;/h1&gt;
+
+&lt;h2 id=&quot;헤더&quot;&gt;헤더&lt;/h2&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# Header one
+
+## Header two
+
+### Header three
+
+#### Header four
+
+##### Header five
+
+###### Header six
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h1 id=&quot;header-one&quot;&gt;Header one&lt;/h1&gt;
+
+&lt;h2 id=&quot;header-two&quot;&gt;Header two&lt;/h2&gt;
+
+&lt;h3 id=&quot;header-three&quot;&gt;Header three&lt;/h3&gt;
+
+&lt;h4 id=&quot;header-four&quot;&gt;Header four&lt;/h4&gt;
+
+&lt;h5 id=&quot;header-five&quot;&gt;Header five&lt;/h5&gt;
+
+&lt;h6 id=&quot;header-six&quot;&gt;Header six&lt;/h6&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;blockquotes&quot;&gt;Blockquotes&lt;/h2&gt;
+
+&lt;p&gt;` &amp;gt; ` 를 사용해 강조문을 만들 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;예 )&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;test&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;예 )&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;test&lt;/p&gt;
+
+  &lt;p&gt;test&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;tables&quot;&gt;Tables&lt;/h2&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;표 작성 기능&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;| Employee         | Salary |                                                              |
+|------------------|--------|--------------------------------------------------------------|
+| [John Doe](#)    | $1     | Because that's all Steve Jobs needed for a salary.           |
+| [Jane Doe](#)    | $100K  | For all the blogging she does.                               |
+| [Fred Bloggs](#) | $100M  | Pictures are worth a thousand words, right? So Jane × 1,000. |
+| [Jane Bloggs](#) | $100B  | With hair like that?! Enough said.                           |
+
+
+| Header1 | Header2 | Header3 |
+|:--------|:-------:|--------:|
+| cell1   | cell2   | cell3   |
+| cell4   | cell5   | cell6   |
+|-----------------------------|
+| cell1   | cell2   | cell3   |
+| cell4   | cell5   | cell6   |
+|=============================|
+| Foot1   | Foot2   | Foot3   |
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;:--------&lt;/code&gt; 구분은 header를 의미합니다 ,  : 는 정렬을 의미합니다.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;===&lt;/code&gt; 구분은 footer를 의미합니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;예 )
+| Employee         | Salary |                                                              |
+|——————|——–|————————————————————–|
+| &lt;a href=&quot;#&quot;&gt;John Doe&lt;/a&gt;    | $1     | Because that’s all Steve Jobs needed for a salary.           |
+| &lt;a href=&quot;#&quot;&gt;Jane Doe&lt;/a&gt;    | $100K  | For all the blogging she does.                               |
+| &lt;a href=&quot;#&quot;&gt;Fred Bloggs&lt;/a&gt; | $100M  | Pictures are worth a thousand words, right? So Jane × 1,000. |
+| &lt;a href=&quot;#&quot;&gt;Jane Bloggs&lt;/a&gt; | $100B  | With hair like that?! Enough said.                           |&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Header1&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Header2&lt;/th&gt;
+      &lt;th style=&quot;text-align: right&quot;&gt;Header3&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;cell1&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;cell2&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;cell3&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;cell4&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;cell5&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;cell6&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;cell1&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;cell2&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;cell3&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;cell4&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;cell5&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;cell6&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+  &lt;tfoot&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Foot1&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Foot2&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;Foot3&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tfoot&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;unordered-lists-nested&quot;&gt;Unordered Lists (Nested)&lt;/h2&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-&lt;/code&gt; 와 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;*&lt;/code&gt; 로 Unordered Lists 를 작성할 수 있습니다.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;List item one
+    &lt;ul&gt;
+      &lt;li&gt;List item one
+        &lt;ul&gt;
+          &lt;li&gt;List item one&lt;/li&gt;
+          &lt;li&gt;List item two&lt;/li&gt;
+          &lt;li&gt;List item three&lt;/li&gt;
+          &lt;li&gt;List item four&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;List item two&lt;/li&gt;
+      &lt;li&gt;List item three&lt;/li&gt;
+      &lt;li&gt;List item four&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;List item two&lt;/li&gt;
+  &lt;li&gt;List item three&lt;/li&gt;
+  &lt;li&gt;List item four&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;ordered-list-nested&quot;&gt;Ordered List (Nested)&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;List item one
+    &lt;ol&gt;
+      &lt;li&gt;List item one
+        &lt;ol&gt;
+          &lt;li&gt;List item one&lt;/li&gt;
+          &lt;li&gt;List item two&lt;/li&gt;
+          &lt;li&gt;List item three&lt;/li&gt;
+          &lt;li&gt;List item four&lt;/li&gt;
+        &lt;/ol&gt;
+      &lt;/li&gt;
+      &lt;li&gt;List item two&lt;/li&gt;
+      &lt;li&gt;List item three&lt;/li&gt;
+      &lt;li&gt;List item four&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;List item two&lt;/li&gt;
+  &lt;li&gt;List item three&lt;/li&gt;
+  &lt;li&gt;List item four&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;buttons&quot;&gt;Buttons&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;블로그 테마는 버튼을 지원합니다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;방법 1&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;#&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;btn--success&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Success Button&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;방법 2&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;Default Button Text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;](&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;#link&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;{: .btn}
+&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;Primary Button Text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;](&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;#link&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;{: .btn .btn--primary}
+&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;Accent Button Text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;](&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;#link&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;{: .btn .btn--accent}
+&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;Success Button Text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;](&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;#link&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;{: .btn .btn--success}
+&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;Warning Button Text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;](&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;#link&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;{: .btn .btn--warning}
+&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;Danger Button Text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;](&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;#link&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;{: .btn .btn--danger}
+&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;Info Button Text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;](&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;#link&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;{: .btn .btn--info}
+&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;Inverse Button&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;](&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;#link&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;{: .btn .btn--inverse}
+&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;Light Outline Button&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;](&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;#link&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;{: .btn .btn--light-outline}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;예 )
+&lt;a href=&quot;#link&quot; class=&quot;btn&quot;&gt;Default Button Text&lt;/a&gt;
+&lt;a href=&quot;#link&quot; class=&quot;btn btn--primary&quot;&gt;Primary Button Text&lt;/a&gt;
+&lt;a href=&quot;#link&quot; class=&quot;btn btn--accent&quot;&gt;Accent Button Text&lt;/a&gt;
+&lt;a href=&quot;#link&quot; class=&quot;btn btn--success&quot;&gt;Success Button Text&lt;/a&gt;
+&lt;a href=&quot;#link&quot; class=&quot;btn btn--warning&quot;&gt;Warning Button Text&lt;/a&gt;
+&lt;a href=&quot;#link&quot; class=&quot;btn btn--danger&quot;&gt;Danger Button Text&lt;/a&gt;
+&lt;a href=&quot;#link&quot; class=&quot;btn btn--info&quot;&gt;Info Button Text&lt;/a&gt;
+&lt;a href=&quot;#link&quot; class=&quot;btn btn--inverse&quot;&gt;Inverse Button&lt;/a&gt;
+&lt;a href=&quot;#link&quot; class=&quot;btn btn--light-outline&quot;&gt;Light Outline Button&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;notices&quot;&gt;Notices&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;블로그 테마는 Notices 기능을 지원합니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;**Watch out!** This paragraph of text has been [emphasized](#) with the `{: .notice}` class.
+{: .notice}
+
+**Watch out!** This paragraph of text has been [emphasized](#) with the `{: .notice--primary}` class.
+{: .notice--primary}
+
+**Watch out!** This paragraph of text has been [emphasized](#) with the `{: .notice--accent}` class.
+{: .notice--accent}
+
+**Watch out!** This paragraph of text has been [emphasized](#) with the `{: .notice--info}` class.
+{: .notice--info}
+
+**Watch out!** This paragraph of text has been [emphasized](#) with the `{: .notice--warning}` class.
+{: .notice--warning}
+
+**Watch out!** This paragraph of text has been [emphasized](#) with the `{: .notice--success}` class.
+{: .notice--success}
+
+**Watch out!** This paragraph of text has been [emphasized](#) with the `{: .notice--danger}` class.
+{: .notice--danger}
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;예 )&lt;/p&gt;
+
+&lt;p class=&quot;notice&quot;&gt;&lt;strong&gt;Watch out!&lt;/strong&gt; This paragraph of text has been &lt;a href=&quot;#&quot;&gt;emphasized&lt;/a&gt; with the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;{: .notice}&lt;/code&gt; class.&lt;/p&gt;
+
+&lt;p class=&quot;notice--primary&quot;&gt;&lt;strong&gt;Watch out!&lt;/strong&gt; This paragraph of text has been &lt;a href=&quot;#&quot;&gt;emphasized&lt;/a&gt; with the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;{: .notice--primary}&lt;/code&gt; class.&lt;/p&gt;
+
+&lt;p class=&quot;notice--accent&quot;&gt;&lt;strong&gt;Watch out!&lt;/strong&gt; This paragraph of text has been &lt;a href=&quot;#&quot;&gt;emphasized&lt;/a&gt; with the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;{: .notice--accent}&lt;/code&gt; class.&lt;/p&gt;
+
+&lt;p class=&quot;notice--info&quot;&gt;&lt;strong&gt;Watch out!&lt;/strong&gt; This paragraph of text has been &lt;a href=&quot;#&quot;&gt;emphasized&lt;/a&gt; with the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;{: .notice--info}&lt;/code&gt; class.&lt;/p&gt;
+
+&lt;p class=&quot;notice--warning&quot;&gt;&lt;strong&gt;Watch out!&lt;/strong&gt; This paragraph of text has been &lt;a href=&quot;#&quot;&gt;emphasized&lt;/a&gt; with the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;{: .notice--warning}&lt;/code&gt; class.&lt;/p&gt;
+
+&lt;p class=&quot;notice--success&quot;&gt;&lt;strong&gt;Watch out!&lt;/strong&gt; This paragraph of text has been &lt;a href=&quot;#&quot;&gt;emphasized&lt;/a&gt; with the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;{: .notice--success}&lt;/code&gt; class.&lt;/p&gt;
+
+&lt;p class=&quot;notice--danger&quot;&gt;&lt;strong&gt;Watch out!&lt;/strong&gt; This paragraph of text has been &lt;a href=&quot;#&quot;&gt;emphasized&lt;/a&gt; with the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;{: .notice--danger}&lt;/code&gt; class.&lt;/p&gt;
+
+&lt;h2 id=&quot;link&quot;&gt;link&lt;/h2&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[표시할 텍스트](주소)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;예)&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://geneuin.github.io&quot;&gt;지뉴인&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;bold-text&quot;&gt;bold text&lt;/h2&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;**bold text**
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;예 )&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;bold text&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;italic&quot;&gt;italic&lt;/h2&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;*italicize*
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;예)&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;italicize&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;코드-소-블럭&quot;&gt;코드 소 블럭&lt;/h2&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;`test`
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;예 )&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;test&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;참고&quot;&gt;참고&lt;/h2&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;a href=&quot;https://mmistakes.github.io/so-simple-theme/markup/markup-html-elements-and-formatting/&quot;&gt;references&lt;/a&gt;&lt;/p&gt;</content><author><name>Geneuin</name></author><category term="Blog" /><summary type="html">마크다운 기본 문법</summary></entry><entry><title type="html">블로그 가이드 -1- 포스트 작성 방법</title><link href="https://geneuin.github.io//blog/2021/04/28/title-1-%ED%8F%AC%EC%8A%A4%ED%8A%B8-%EC%9E%91%EC%84%B1-%EB%B0%A9%EB%B2%95.html" rel="alternate" type="text/html" title="블로그 가이드 -1- 포스트 작성 방법" /><published>2021-04-28T00:00:00+09:00</published><updated>2021-04-28T00:00:00+09:00</updated><id>https://geneuin.github.io//blog/2021/04/28/title-1-%ED%8F%AC%EC%8A%A4%ED%8A%B8-%EC%9E%91%EC%84%B1-%EB%B0%A9%EB%B2%95</id><content type="html" xml:base="https://geneuin.github.io//blog/2021/04/28/title-1-%ED%8F%AC%EC%8A%A4%ED%8A%B8-%EC%9E%91%EC%84%B1-%EB%B0%A9%EB%B2%95.html">&lt;h1 id=&quot;포스트-작성-방법&quot;&gt;포스트 작성 방법&lt;/h1&gt;
+
+&lt;h2 id=&quot;파일-형식&quot;&gt;파일 형식&lt;/h2&gt;
+
+&lt;p&gt;포스트 작성은 _posts 폴더 내에 작성합니다.
+예 )&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;2021-04-27-title-ex2-ex3.md 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;위와 같은 형식으로 마크다운 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.md&lt;/code&gt; 파일로 작성합니다. ( ex는 빼도 됩니다. )&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;파일 이름은 포스트 제목과 연관이 없습니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;frontmatter&quot;&gt;frontMatter&lt;/h2&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.md&lt;/code&gt; 파일 내에 포스트에 대한 메타 데이터를 작성해야 합니다.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Front Matter 란 jekyll 에서 포스트나 페이지를 관리하는데 사용하기 위해 읽어들이는
+YAML 방식의 문서의 헤더 양식입니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;---
+title: &quot;제목&quot; // 포스트나 페이지의 제목을 넣는다.
+date: 2021-04-27T03:00:00+09:00 // 생성일로, 양식은 년-월-일T시:분:초+GMT시간
+last_modified_at: 2021-04-27T03:00:00+09:00 // 변경일
+author: 작성자 없으면 _config.yml 에 정의된 default 값
+categories: 
+    - articles // 어느 페이지에 속하는지를 표시한다.
+tags: 
+    - haroopad // 태그를 지정할 수 있다.
+share: false // 포스트 하단 공유 기능
+---
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;예 )&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;title: &quot;Test 입니다.&quot;
+date: 2021-04-27T03:00:00+09:00
+categories:
+  - Markup
+author: sang gil
+tags:
+  - html
+  - markup
+  - post
+  - title
+last_modified_at: 2021-04-27T03:00:00+09:00
+share: false
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Geneuin</name></author><category term="Blog" /><summary type="html">포스트 작성 방법</summary></entry><entry><title type="html">블로그 가이드 -2- 작성자 형식 만들기</title><link href="https://geneuin.github.io//blog/2021/04/28/title-2-author-%EC%9E%91%EC%84%B1%EC%9E%90.html" rel="alternate" type="text/html" title="블로그 가이드 -2- 작성자 형식 만들기" /><published>2021-04-28T00:00:00+09:00</published><updated>2021-04-28T00:00:00+09:00</updated><id>https://geneuin.github.io//blog/2021/04/28/title-2-author-%EC%9E%91%EC%84%B1%EC%9E%90</id><content type="html" xml:base="https://geneuin.github.io//blog/2021/04/28/title-2-author-%EC%9E%91%EC%84%B1%EC%9E%90.html">&lt;h1 id=&quot;author-작성자&quot;&gt;author 작성자&lt;/h1&gt;
+
+&lt;p&gt;루트 경로의 _data 폴더 내의 authors.yml 에 작성자를 정의할 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;예 )&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# Geneuin
+Geneuin: // 참조 값
+  name: Geneuin // 이름
+  picture: /images/michael-rose-photo.jpg // 프로필 사진
+  email:
+  # twitter: mmistakes
+  links:
+    # - title: Twitter
+    #   url: https://twitter.com/mmistakes
+    #   icon: fab fa-twitter-square
+    # - title: Instagram
+    #   url: https://instagram.com/mmistakes
+    #   icon: fab fa-instagram
+    - title: GitHub
+      url: https://github.com/mmistakes
+      icon: fab fa-github-square
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/blogGuide/author.png&quot; alt=&quot;author&quot; /&gt;;&lt;/p&gt;</content><author><name>Geneuin</name></author><category term="Blog" /><summary type="html">author 작성자</summary></entry><entry><title type="html">블로그 가이드 -8- 이미지 삽입 및 포스트 커버 이미지</title><link href="https://geneuin.github.io//blog/2021/04/28/title-8-%EC%9D%B4%EB%AF%B8%EC%A7%80-%EC%82%BD%EC%9E%85-%EB%B0%8F-%ED%8F%AC%EC%8A%A4%ED%8A%B8-%EC%BB%A4%EB%B2%84-%EC%9D%B4%EB%AF%B8%EC%A7%80.html" rel="alternate" type="text/html" title="블로그 가이드 -8- 이미지 삽입 및 포스트 커버 이미지" /><published>2021-04-28T00:00:00+09:00</published><updated>2021-04-28T00:00:00+09:00</updated><id>https://geneuin.github.io//blog/2021/04/28/title-8-%EC%9D%B4%EB%AF%B8%EC%A7%80-%EC%82%BD%EC%9E%85-%EB%B0%8F-%ED%8F%AC%EC%8A%A4%ED%8A%B8-%EC%BB%A4%EB%B2%84-%EC%9D%B4%EB%AF%B8%EC%A7%80</id><content type="html" xml:base="https://geneuin.github.io//blog/2021/04/28/title-8-%EC%9D%B4%EB%AF%B8%EC%A7%80-%EC%82%BD%EC%9E%85-%EB%B0%8F-%ED%8F%AC%EC%8A%A4%ED%8A%B8-%EC%BB%A4%EB%B2%84-%EC%9D%B4%EB%AF%B8%EC%A7%80.html">&lt;h1 id=&quot;이미지-삽입-및-포스트-커버-이미지&quot;&gt;이미지 삽입 및 포스트 커버 이미지&lt;/h1&gt;
+
+&lt;h2 id=&quot;이미지-삽입방법&quot;&gt;이미지 삽입방법&lt;/h2&gt;
+
+&lt;p&gt;이미지를 삽입할 곳에&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;![ex_screenshot](/images/blogGuide/screenshot.png)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;위처럼 작성하면 됩니다.
+img태그와 비교하자면 [] 블럭은 alt () 블럭은 src 속성 입니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;포스트-커버-이미지&quot;&gt;포스트 커버 이미지&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://mmistakes.github.io/so-simple-theme/layout/layout-hero-image/&quot;&gt;예시 사이트&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;위 예시 사이트 처럼 포스트 커버 이미지를 지원합니다.&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;---
+title: &quot;Layout: Hero Image&quot;
+image: 
+  path: /images/so-simple-sample-image-3.jpg
+  thumbnail: /images/so-simple-sample-image-3-400x200.jpg
+  caption: &quot;Photo from [WeGraphics](http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/)&quot;
+categories:
+  - Layout
+tags:
+  - content
+  - image
+  - layout
+last_modified_at: 2018-01-31T14:28:50-05:00
+---
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;포스트 상단 frontMatter 작성 image 부분 예시입니다.
+이미지에 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;caption&lt;/code&gt; 속성과 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;thumbnail&lt;/code&gt; 속성이 필요하지 않다면&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;image: /images/eder-oliveira-180877.jpg
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;와 같이 간결하게 작성할 수 있습니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;참고&quot;&gt;참고&lt;/h2&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;a href=&quot;https://mmistakes.github.io/so-simple-theme/layout/layout-hero-image/&quot;&gt;references&lt;/a&gt;&lt;/p&gt;</content><author><name>Geneuin</name></author><category term="Blog" /><summary type="html">이미지 삽입 및 포스트 커버 이미지</summary></entry><entry><title type="html">블로그 가이드 -4- 코드블럭</title><link href="https://geneuin.github.io//blog/2021/04/28/title-4-%EC%BD%94%EB%93%9C%EB%B8%94%EB%9F%AD.html" rel="alternate" type="text/html" title="블로그 가이드 -4- 코드블럭" /><published>2021-04-28T00:00:00+09:00</published><updated>2021-04-28T00:00:00+09:00</updated><id>https://geneuin.github.io//blog/2021/04/28/title-4-%EC%BD%94%EB%93%9C%EB%B8%94%EB%9F%AD</id><content type="html" xml:base="https://geneuin.github.io//blog/2021/04/28/title-4-%EC%BD%94%EB%93%9C%EB%B8%94%EB%9F%AD.html">&lt;h1 id=&quot;코드블럭&quot;&gt;코드블럭&lt;/h1&gt;
+
+&lt;p&gt;코드블럭을 작성하는 방법은 크게 3가지가 있습니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;코드블럭-1-basic&quot;&gt;코드블럭 1) basic&lt;/h2&gt;
+
+&lt;p&gt;` ``` ` 로 코드 앞뒤를 묶어줍니다.&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    ```css
+    #container {
+    float: left;
+    margin: 0 -240px 0 0;
+    width: 100%;
+    }
+    ```
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;위와 같이 해당 코드 처음과 마지막에 ` &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;`를 붙여줍니다. 시작하는 `&lt;/code&gt; ` 에 코드의 언어를 붙여주면 해당 코드에 하이라이트가 적용됩니다.&lt;/p&gt;
+
+&lt;p&gt;예 )&lt;/p&gt;
+
+&lt;div class=&quot;language-css highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nf&quot;&gt;#container&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;float&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;left&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;margin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;-240px&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;100%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;코드블럭-2-linenos&quot;&gt;코드블럭 2) linenos&lt;/h2&gt;
+
+&lt;p&gt;해당 블로그 테마는 다음과 같은 방법도 지원합니다.
+라인 넘버가 포함된 코드블럭입니다.&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    
+&amp;lt;figure class=&quot;highlight&quot;&amp;gt;&amp;lt;pre&amp;gt;&amp;lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&amp;gt;&amp;lt;table class=&quot;rouge-table&quot;&amp;gt;&amp;lt;tbody&amp;gt;&amp;lt;tr&amp;gt;&amp;lt;td class=&quot;gutter gl&quot;&amp;gt;&amp;lt;pre class=&quot;lineno&quot;&amp;gt;1
+2
+3
+4
+5
+6
+7
+8
+9
+&amp;lt;/pre&amp;gt;&amp;lt;/td&amp;gt;&amp;lt;td class=&quot;code&quot;&amp;gt;&amp;lt;pre&amp;gt;    &amp;lt;span class=&quot;nt&quot;&amp;gt;&amp;amp;lt;nav&amp;lt;/span&amp;gt; &amp;lt;span class=&quot;na&quot;&amp;gt;class=&amp;lt;/span&amp;gt;&amp;lt;span class=&quot;s&quot;&amp;gt;&quot;pagination&quot;&amp;lt;/span&amp;gt; &amp;lt;span class=&quot;na&quot;&amp;gt;role=&amp;lt;/span&amp;gt;&amp;lt;span class=&quot;s&quot;&amp;gt;&quot;navigation&quot;&amp;lt;/span&amp;gt;&amp;lt;span class=&quot;nt&quot;&amp;gt;&amp;amp;gt;&amp;lt;/span&amp;gt;
+      {% if page.previous %}
+        &amp;lt;span class=&quot;nt&quot;&amp;gt;&amp;amp;lt;a&amp;lt;/span&amp;gt; &amp;lt;span class=&quot;na&quot;&amp;gt;href=&amp;lt;/span&amp;gt;&amp;lt;span class=&quot;s&quot;&amp;gt;&quot;{{ site.url }}{{ page.previous.url }}&quot;&amp;lt;/span&amp;gt; &amp;lt;span class=&quot;na&quot;&amp;gt;class=&amp;lt;/span&amp;gt;&amp;lt;span class=&quot;s&quot;&amp;gt;&quot;btn&quot;&amp;lt;/span&amp;gt; &amp;lt;span class=&quot;na&quot;&amp;gt;title=&amp;lt;/span&amp;gt;&amp;lt;span class=&quot;s&quot;&amp;gt;&quot;{{ page.previous.title }}&quot;&amp;lt;/span&amp;gt;&amp;lt;span class=&quot;nt&quot;&amp;gt;&amp;amp;gt;&amp;lt;/span&amp;gt;Previous article&amp;lt;span class=&quot;nt&quot;&amp;gt;&amp;amp;lt;/a&amp;amp;gt;&amp;lt;/span&amp;gt;
+      {% endif %}
+      {% if page.next %}
+        &amp;lt;span class=&quot;nt&quot;&amp;gt;&amp;amp;lt;a&amp;lt;/span&amp;gt; &amp;lt;span class=&quot;na&quot;&amp;gt;href=&amp;lt;/span&amp;gt;&amp;lt;span class=&quot;s&quot;&amp;gt;&quot;{{ site.url }}{{ page.next.url }}&quot;&amp;lt;/span&amp;gt; &amp;lt;span class=&quot;na&quot;&amp;gt;class=&amp;lt;/span&amp;gt;&amp;lt;span class=&quot;s&quot;&amp;gt;&quot;btn&quot;&amp;lt;/span&amp;gt; &amp;lt;span class=&quot;na&quot;&amp;gt;title=&amp;lt;/span&amp;gt;&amp;lt;span class=&quot;s&quot;&amp;gt;&quot;{{ page.next.title }}&quot;&amp;lt;/span&amp;gt;&amp;lt;span class=&quot;nt&quot;&amp;gt;&amp;amp;gt;&amp;lt;/span&amp;gt;Next article&amp;lt;span class=&quot;nt&quot;&amp;gt;&amp;amp;lt;/a&amp;amp;gt;&amp;lt;/span&amp;gt;
+      {% endif %}
+    &amp;lt;span class=&quot;nt&quot;&amp;gt;&amp;amp;lt;/nav&amp;amp;gt;&amp;lt;/span&amp;gt;&amp;lt;span class=&quot;c&quot;&amp;gt;&amp;amp;lt;!-- /.pagination --&amp;amp;gt;&amp;lt;/span&amp;gt;
+    
+&amp;lt;/pre&amp;gt;&amp;lt;/td&amp;gt;&amp;lt;/tr&amp;gt;&amp;lt;/tbody&amp;gt;&amp;lt;/table&amp;gt;&amp;lt;/code&amp;gt;&amp;lt;/pre&amp;gt;&amp;lt;/figure&amp;gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;예 )&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+7
+8
+9
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;    &lt;span class=&quot;nt&quot;&gt;&amp;lt;nav&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;pagination&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;role=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;navigation&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+      {% if page.previous %}
+        &lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;{{ site.url }}{{ page.previous.url }}&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;btn&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;title=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;{{ page.previous.title }}&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Previous article&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
+      {% endif %}
+      {% if page.next %}
+        &lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;{{ site.url }}{{ page.next.url }}&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;btn&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;title=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;{{ page.next.title }}&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Next article&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
+      {% endif %}
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;/nav&amp;gt;&lt;/span&gt;&lt;span class=&quot;c&quot;&gt;&amp;lt;!-- /.pagination --&amp;gt;&lt;/span&gt;
+    
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h2 id=&quot;코드블럭-3-github-gist-embed&quot;&gt;코드블럭 3) GitHub Gist Embed&lt;/h2&gt;
+
+&lt;p&gt;깃허브 gist 임베드도 지원합니다.&lt;/p&gt;
+
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;script &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;https://gist.github.com/mmistakes/77c68fbb07731a456805a7b473f47841.js&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;예 )&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/mmistakes/77c68fbb07731a456805a7b473f47841.js&quot;&gt;&lt;/script&gt;
+
+&lt;h2 id=&quot;참고&quot;&gt;참고&lt;/h2&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;a href=&quot;https://mmistakes.github.io/so-simple-theme/markup-syntax-highlighting/&quot;&gt;references&lt;/a&gt;&lt;/p&gt;</content><author><name>Geneuin</name></author><category term="Blog" /><summary type="html">코드블럭</summary></entry><entry><title type="html">블로그 가이드 -5- 각주 삽입</title><link href="https://geneuin.github.io//blog/2021/04/28/title-5-%EA%B0%81%EC%A3%BC-%EA%B8%B0%EB%8A%A5.html" rel="alternate" type="text/html" title="블로그 가이드 -5- 각주 삽입" /><published>2021-04-28T00:00:00+09:00</published><updated>2021-04-28T00:00:00+09:00</updated><id>https://geneuin.github.io//blog/2021/04/28/title-5-%EA%B0%81%EC%A3%BC-%EA%B8%B0%EB%8A%A5</id><content type="html" xml:base="https://geneuin.github.io//blog/2021/04/28/title-5-%EA%B0%81%EC%A3%BC-%EA%B8%B0%EB%8A%A5.html">&lt;h1 id=&quot;각주-기능&quot;&gt;각주 기능&lt;/h1&gt;
+
+&lt;p&gt;포스트 내에 각주를 추가할 수 있습니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;예&quot;&gt;예)&lt;/h2&gt;
+
+&lt;p&gt;Syntax highlighting is a feature that displays source code, in different colors and fonts according to the category of terms. This feature facilitates writing in a structured language such as a programming language or a markup language as both structures and syntax errors are visually distinct. Highlighting does not affect the meaning of the text itself; it is intended only for human readers.&lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;각주가 표시될 곳에 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;[^1]&lt;/code&gt; 와 같은 형식으로 각주를 선언해 줍니다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;선언한 각주를 다음과 같이 정의해 줍니다.(위치 상관없음)&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[^1]: &amp;lt;http://en.wikipedia.org/wiki/Syntax_highlighting&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;사용 예시 )&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/blogGuide/pointLink.png&quot; alt=&quot;각주&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;위와 같이 포스트 하단에 해당 링크가 위치하게 됩니다.&lt;/p&gt;
+&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;http://en.wikipedia.org/wiki/Syntax_highlighting&quot;&gt;http://en.wikipedia.org/wiki/Syntax_highlighting&lt;/a&gt; &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content><author><name>Geneuin</name></author><category term="Blog" /><summary type="html">각주 기능</summary></entry><entry><title type="html">테스트용 포스트입니다2</title><link href="https://geneuin.github.io//test/2021/04/26/test2.html" rel="alternate" type="text/html" title="테스트용 포스트입니다2" /><published>2021-04-26T03:02:00+09:00</published><updated>2021-04-26T03:02:00+09:00</updated><id>https://geneuin.github.io//test/2021/04/26/test2</id><content type="html" xml:base="https://geneuin.github.io//test/2021/04/26/test2.html">&lt;p&gt;Test 용 포스팅입니다 !&lt;/p&gt;
 
 &lt;div id=&quot;entry-table-of-contents&quot; class=&quot;toc-wrapper&quot;&gt;
   &lt;h2 id=&quot;toc-toggle&quot; class=&quot;no_toc&quot;&gt;
@@ -10,125 +604,4 @@
 
 &lt;/div&gt;
 
-&lt;h1 id=&quot;123&quot;&gt;123&lt;/h1&gt;</content><author><name>Geneuin</name></author><category term="test" /><category term="test" /><summary type="html">Test 용 포스팅입니다 !</summary></entry><entry><title type="html">테스트용 포스트입니다</title><link href="https://geneuin.github.io//test/2021/04/26/Test-post.html" rel="alternate" type="text/html" title="테스트용 포스트입니다" /><published>2021-04-26T03:00:00+09:00</published><updated>2021-04-26T03:00:00+09:00</updated><id>https://geneuin.github.io//test/2021/04/26/Test-post</id><content type="html" xml:base="https://geneuin.github.io//test/2021/04/26/Test-post.html">&lt;p&gt;Test 용 포스팅입니다 !&lt;/p&gt;</content><author><name>Geneuin</name></author><category term="test" /><category term="test" /><summary type="html">Test 용 포스팅입니다 !</summary></entry><entry><title type="html">Markup: Syntax Highlighting</title><link href="https://geneuin.github.io//2013/08/16/markup-syntax-highlighting.html" rel="alternate" type="text/html" title="Markup: Syntax Highlighting" /><published>2013-08-16T00:00:00+09:00</published><updated>2017-03-10T00:27:01+09:00</updated><id>https://geneuin.github.io//2013/08/16/markup-syntax-highlighting</id><content type="html" xml:base="https://geneuin.github.io//2013/08/16/markup-syntax-highlighting.html">&lt;p&gt;Syntax highlighting is a feature that displays source code, in different colors and fonts according to the category of terms. This feature facilitates writing in a structured language such as a programming language or a markup language as both structures and syntax errors are visually distinct. Highlighting does not affect the meaning of the text itself; it is intended only for human readers.&lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;gfm-code-blocks&quot;&gt;GFM Code Blocks&lt;/h2&gt;
-
-&lt;p&gt;GitHub Flavored Markdown &lt;a href=&quot;https://help.github.com/articles/creating-and-highlighting-code-blocks/&quot;&gt;fenced code blocks&lt;/a&gt; are supported by default with Jekyll. You may need to update your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; file to enable them if you’re using an older version.&lt;/p&gt;
-
-&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;kramdown&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
-  &lt;span class=&quot;na&quot;&gt;input&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;GFM&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Here’s an example of a CSS code snippet written in GFM:&lt;/p&gt;
-
-&lt;div class=&quot;language-css highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nf&quot;&gt;#container&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;float&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;left&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;margin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;-240px&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;100%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Yet another code snippet for demonstration purposes:&lt;/p&gt;
-
-&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;module&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;Jekyll&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;TagIndex&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Page&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;initialize&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;site&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;base&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;dir&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tag&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-      &lt;span class=&quot;vi&quot;&gt;@site&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;site&lt;/span&gt;
-      &lt;span class=&quot;vi&quot;&gt;@base&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;base&lt;/span&gt;
-      &lt;span class=&quot;vi&quot;&gt;@dir&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;dir&lt;/span&gt;
-      &lt;span class=&quot;vi&quot;&gt;@name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'index.html'&lt;/span&gt;
-      &lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;process&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;vi&quot;&gt;@name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-      &lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;read_yaml&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;File&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;join&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;base&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'_layouts'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'tag_index.html'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-      &lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'tag'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tag&lt;/span&gt;
-      &lt;span class=&quot;n&quot;&gt;tag_title_prefix&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;site&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;config&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'tag_title_prefix'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;||&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'Tagged: '&lt;/span&gt;
-      &lt;span class=&quot;n&quot;&gt;tag_title_suffix&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;site&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;config&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'tag_title_suffix'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;||&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'&amp;amp;#8211;'&lt;/span&gt;
-      &lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'title'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;tag_title_prefix&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}#{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;tag&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-      &lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'description'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;An archive of posts tagged &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;tag&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;.&quot;&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;jekyll-highlight-liquid-tag&quot;&gt;Jekyll Highlight Liquid Tag&lt;/h2&gt;
-
-&lt;p&gt;Jekyll also has built-in support for syntax highlighting of code snippets using either Rouge or Pygments, using a dedicated Liquid tag as follows:&lt;/p&gt;
-
-&lt;div class=&quot;language-liquid highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;{%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;highlight&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;scss&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;%}&lt;/span&gt;
-.highlight {
-  margin: 0;
-  padding: 1em;
-  font-family: $monospace;
-  font-size: $type-size-7;
-  line-height: 1.8;
-}
-&lt;span class=&quot;p&quot;&gt;{%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;endhighlight&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;%}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;And the output will look like this:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-scss&quot; data-lang=&quot;scss&quot;&gt;&lt;span class=&quot;nc&quot;&gt;.highlight&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;margin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;padding&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;1em&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;font-family&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$monospace&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;font-size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$type-size-7&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;line-height&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;.8&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Here’s an example of a code snippet using the Liquid tag and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;linenos&lt;/code&gt; enabled.&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
-2
-3
-4
-5
-6
-7
-8
-&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;nav&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;pagination&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;role=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;navigation&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-  {% if page.previous %}
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;{{ site.url }}{{ page.previous.url }}&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;btn&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;title=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;{{ page.previous.title }}&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Previous article&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
-  {% endif %}
-  {% if page.next %}
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;{{ site.url }}{{ page.next.url }}&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;btn&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;title=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;{{ page.next.title }}&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Next article&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
-  {% endif %}
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/nav&amp;gt;&lt;/span&gt;&lt;span class=&quot;c&quot;&gt;&amp;lt;!-- /.pagination --&amp;gt;&lt;/span&gt;
-&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;h2 id=&quot;code-blocks-in-lists&quot;&gt;Code Blocks in Lists&lt;/h2&gt;
-
-&lt;p&gt;Indentation matters. Be sure the indent of the code block aligns with the first non-space character after the list item marker (e.g., &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;1.&lt;/code&gt;). Usually this will mean indenting 3 spaces instead of 4.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Do step 1.&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Now do this:&lt;/p&gt;
-
-    &lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Now you can do this.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;github-gist-embed&quot;&gt;GitHub Gist Embed&lt;/h2&gt;
-
-&lt;p&gt;GitHub Gist embeds can also be used:&lt;/p&gt;
-
-&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;script &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;https://gist.github.com/mmistakes/77c68fbb07731a456805a7b473f47841.js&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Which outputs as:&lt;/p&gt;
-
-&lt;script src=&quot;https://gist.github.com/mmistakes/77c68fbb07731a456805a7b473f47841.js&quot;&gt;&lt;/script&gt;
-
-&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
-  &lt;ol&gt;
-    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
-      &lt;p&gt;&lt;a href=&quot;http://en.wikipedia.org/wiki/Syntax_highlighting&quot;&gt;http://en.wikipedia.org/wiki/Syntax_highlighting&lt;/a&gt; &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-  &lt;/ol&gt;
-&lt;/div&gt;</content><author><name>Geneuin</name></author><category term="code" /><category term="syntax highlighting" /><summary type="html">Post displaying the various ways one can highlight code blocks with Jekyll. Some options include standard Markdown, GitHub Flavored Markdown, and Jekyll's `{% highlight %}` tag.</summary></entry></feed>
+&lt;h1 id=&quot;123&quot;&gt;123&lt;/h1&gt;</content><author><name>Geneuin</name></author><category term="test" /><category term="test" /><summary type="html">Test 용 포스팅입니다 !</summary></entry><entry><title type="html">테스트용 포스트입니다</title><link href="https://geneuin.github.io//test/2021/04/26/Test-post.html" rel="alternate" type="text/html" title="테스트용 포스트입니다" /><published>2021-04-26T03:00:00+09:00</published><updated>2021-04-26T03:00:00+09:00</updated><id>https://geneuin.github.io//test/2021/04/26/Test-post</id><content type="html" xml:base="https://geneuin.github.io//test/2021/04/26/Test-post.html">&lt;p&gt;Test 용 포스팅입니다 !&lt;/p&gt;</content><author><name>Geneuin</name></author><category term="test" /><category term="test" /><summary type="html">Test 용 포스팅입니다 !</summary></entry></feed>

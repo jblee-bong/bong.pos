@@ -1,0 +1,25 @@
+I"/<h1 id="author-작성자">author 작성자</h1>
+
+<p>루트 경로의 _data 폴더 내의 authors.yml 에 작성자를 정의할 수 있습니다.</p>
+
+<p>예 )</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># Geneuin
+Geneuin: // 참조 값
+  name: Geneuin // 이름
+  picture: /images/michael-rose-photo.jpg // 프로필 사진
+  email:
+  # twitter: mmistakes
+  links:
+    # - title: Twitter
+    #   url: https://twitter.com/mmistakes
+    #   icon: fab fa-twitter-square
+    # - title: Instagram
+    #   url: https://instagram.com/mmistakes
+    #   icon: fab fa-instagram
+    - title: GitHub
+      url: https://github.com/mmistakes
+      icon: fab fa-github-square
+</code></pre></div></div>
+
+<p><img src="/images/blogGuide/author.png" alt="author" />;</p>
+:ET

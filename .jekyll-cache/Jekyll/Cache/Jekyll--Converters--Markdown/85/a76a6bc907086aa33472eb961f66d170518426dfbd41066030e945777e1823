@@ -1,0 +1,26 @@
+I"�<h1 id="각주-기능">각주 기능</h1>
+
+<p>포스트 내에 각주를 추가할 수 있습니다.</p>
+
+<h2 id="예">예)</h2>
+
+<p>Syntax highlighting is a feature that displays source code, in different colors and fonts according to the category of terms. This feature facilitates writing in a structured language such as a programming language or a markup language as both structures and syntax errors are visually distinct. Highlighting does not affect the meaning of the text itself; it is intended only for human readers.[^1]</p>
+
+<ul>
+  <li>
+    <p>각주가 표시될 곳에 <code class="language-plaintext highlighter-rouge">[^1]</code> 와 같은 형식으로 각주를 선언해 줍니다.</p>
+  </li>
+  <li>
+    <p>선언한 각주를 다음과 같이 정의해 줍니다.(위치 상관없음)</p>
+  </li>
+</ul>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[^1]: &lt;http://en.wikipedia.org/wiki/Syntax_highlighting&gt;
+</code></pre></div></div>
+
+<p>사용 예시 )</p>
+
+<p><img src="/images/blogGuide/pointLink.png" alt="각주" /></p>
+
+<p>위와 같이 포스트 하단에 해당 링크가 위치하게 됩니다.</p>
+:ET
