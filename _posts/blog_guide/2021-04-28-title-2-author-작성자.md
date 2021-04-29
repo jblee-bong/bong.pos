@@ -30,4 +30,4 @@ Geneuin: // 참조 값
       icon: fab fa-github-square
 ```
 
-![author](/images/blogGuide/author.png);
+![author](/images/blog_guide/author.png);
