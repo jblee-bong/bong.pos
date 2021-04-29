@@ -1,1 +1,6 @@
-# Geneuin.github.io
+## Geneuin.github.io
+
+안녕하세요, Geneuin Team 블로그 저장소입니다. 
+
+해당 블로그는 저희 팀의 개발에서 겪었던 문제들을 해결하는 과정들을 정리하는 기술 블로그입니다. 
+
