@@ -1,4 +1,4 @@
-I"�<h1 id="코드블럭">코드블럭</h1>
+I"�<h1 id="코드블럭">코드블럭</h1>
 
 <p>코드블럭을 작성하는 방법은 크게 3가지가 있습니다.</p>
 
@@ -54,7 +54,7 @@
 
 <p>예 )</p>
 
-<p><img src="/images/blogGuide/codeBlock.png" alt="block" /></p>
+<p><img src="/images/blog_guide/codeBlock.png" alt="block" /></p>
 
 <h2 id="코드블럭-3-github-gist-embed">코드블럭 3) GitHub Gist Embed</h2>
 
@@ -65,7 +65,7 @@
 
 <p>예 )</p>
 
-<p><img src="/images/blogGuide/gist.png" alt="block" /></p>
+<p><img src="/images/blog_guide/gist.png" alt="block" /></p>
 
 <h2 id="참고">참고</h2>
 <hr />

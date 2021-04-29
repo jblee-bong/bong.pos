@@ -50,7 +50,7 @@ var store = [{
         "url": "https://geneuin.github.io//blog/2021/04/28/title-7-%EC%9C%A0%ED%8A%9C%EB%B8%8C-%EC%82%BD%EC%9E%85.html"
       },{
         "title": "블로그 가이드 -8- 이미지 삽입 및 포스트 커버 이미지",
-        "excerpt":"이미지 삽입 및 포스트 커버 이미지 이미지 삽입방법 이미지를 삽입할 곳에 ![ex_screenshot](/images/blogGuide/screenshot.png)위처럼 작성하면 됩니다.img태그와 비교하자면 [] 블럭은 alt () 블럭은 src 속성 입니다. 포스트 커버 이미지 예시 사이트 위 예시 사이트 처럼 포스트 커버 이미지를 지원합니다. ---title: \"Layout: Hero Image\"image: path: /images/so-simple-sample-image-3.jpg thumbnail: /images/so-simple-sample-image-3-400x200.jpg caption: \"Photo from [WeGraphics](http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/)\"categories: - Layouttags:...","categories": ["Blog"],
+        "excerpt":"이미지 삽입 및 포스트 커버 이미지 이미지 삽입방법 이미지를 삽입할 곳에 ![ex_screenshot](/images/blog_guide/screenshot.png)위처럼 작성하면 됩니다.img태그와 비교하자면 [] 블럭은 alt () 블럭은 src 속성 입니다. 포스트 커버 이미지 예시 사이트 위 예시 사이트 처럼 포스트 커버 이미지를 지원합니다. ---title: \"Layout: Hero Image\"image: path: /images/so-simple-sample-image-3.jpg thumbnail: /images/so-simple-sample-image-3-400x200.jpg caption: \"Photo from [WeGraphics](http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/)\"categories: - Layouttags:...","categories": ["Blog"],
         "tags": [],
         "url": "https://geneuin.github.io//blog/2021/04/28/title-8-%EC%9D%B4%EB%AF%B8%EC%A7%80-%EC%82%BD%EC%9E%85-%EB%B0%8F-%ED%8F%AC%EC%8A%A4%ED%8A%B8-%EC%BB%A4%EB%B2%84-%EC%9D%B4%EB%AF%B8%EC%A7%80.html"
       },{

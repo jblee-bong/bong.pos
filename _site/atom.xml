@@ -47,7 +47,7 @@
 
 &lt;p&gt;또는&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images/blogGuide/youtube.png&quot; alt=&quot;youtube&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/blog_guide/youtube.png&quot; alt=&quot;youtube&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;유튜브가 삽입될 곳에 url 부분만 바꿔 사용가능합니다.&lt;/p&gt;
 
@@ -427,12 +427,12 @@ Geneuin: // 참조 값
       icon: fab fa-github-square
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images/blogGuide/author.png&quot; alt=&quot;author&quot; /&gt;;&lt;/p&gt;</content><author><name>Geneuin</name></author><category term="Blog" /><summary type="html">author 작성자</summary></entry><entry><title type="html">블로그 가이드 -8- 이미지 삽입 및 포스트 커버 이미지</title><link href="https://geneuin.github.io//blog/2021/04/28/title-8-%EC%9D%B4%EB%AF%B8%EC%A7%80-%EC%82%BD%EC%9E%85-%EB%B0%8F-%ED%8F%AC%EC%8A%A4%ED%8A%B8-%EC%BB%A4%EB%B2%84-%EC%9D%B4%EB%AF%B8%EC%A7%80.html" rel="alternate" type="text/html" title="블로그 가이드 -8- 이미지 삽입 및 포스트 커버 이미지" /><published>2021-04-28T00:00:00+09:00</published><updated>2021-04-28T00:00:00+09:00</updated><id>https://geneuin.github.io//blog/2021/04/28/title-8-%EC%9D%B4%EB%AF%B8%EC%A7%80-%EC%82%BD%EC%9E%85-%EB%B0%8F-%ED%8F%AC%EC%8A%A4%ED%8A%B8-%EC%BB%A4%EB%B2%84-%EC%9D%B4%EB%AF%B8%EC%A7%80</id><content type="html" xml:base="https://geneuin.github.io//blog/2021/04/28/title-8-%EC%9D%B4%EB%AF%B8%EC%A7%80-%EC%82%BD%EC%9E%85-%EB%B0%8F-%ED%8F%AC%EC%8A%A4%ED%8A%B8-%EC%BB%A4%EB%B2%84-%EC%9D%B4%EB%AF%B8%EC%A7%80.html">&lt;h1 id=&quot;이미지-삽입-및-포스트-커버-이미지&quot;&gt;이미지 삽입 및 포스트 커버 이미지&lt;/h1&gt;
+&lt;p&gt;&lt;img src=&quot;/images/blog_guide/author.png&quot; alt=&quot;author&quot; /&gt;;&lt;/p&gt;</content><author><name>Geneuin</name></author><category term="Blog" /><summary type="html">author 작성자</summary></entry><entry><title type="html">블로그 가이드 -8- 이미지 삽입 및 포스트 커버 이미지</title><link href="https://geneuin.github.io//blog/2021/04/28/title-8-%EC%9D%B4%EB%AF%B8%EC%A7%80-%EC%82%BD%EC%9E%85-%EB%B0%8F-%ED%8F%AC%EC%8A%A4%ED%8A%B8-%EC%BB%A4%EB%B2%84-%EC%9D%B4%EB%AF%B8%EC%A7%80.html" rel="alternate" type="text/html" title="블로그 가이드 -8- 이미지 삽입 및 포스트 커버 이미지" /><published>2021-04-28T00:00:00+09:00</published><updated>2021-04-28T00:00:00+09:00</updated><id>https://geneuin.github.io//blog/2021/04/28/title-8-%EC%9D%B4%EB%AF%B8%EC%A7%80-%EC%82%BD%EC%9E%85-%EB%B0%8F-%ED%8F%AC%EC%8A%A4%ED%8A%B8-%EC%BB%A4%EB%B2%84-%EC%9D%B4%EB%AF%B8%EC%A7%80</id><content type="html" xml:base="https://geneuin.github.io//blog/2021/04/28/title-8-%EC%9D%B4%EB%AF%B8%EC%A7%80-%EC%82%BD%EC%9E%85-%EB%B0%8F-%ED%8F%AC%EC%8A%A4%ED%8A%B8-%EC%BB%A4%EB%B2%84-%EC%9D%B4%EB%AF%B8%EC%A7%80.html">&lt;h1 id=&quot;이미지-삽입-및-포스트-커버-이미지&quot;&gt;이미지 삽입 및 포스트 커버 이미지&lt;/h1&gt;
 
 &lt;h2 id=&quot;이미지-삽입방법&quot;&gt;이미지 삽입방법&lt;/h2&gt;
 
 &lt;p&gt;이미지를 삽입할 곳에&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;![ex_screenshot](/images/blogGuide/screenshot.png)
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;![ex_screenshot](/images/blog_guide/screenshot.png)
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;위처럼 작성하면 됩니다.
 img태그와 비교하자면 [] 블럭은 alt () 블럭은 src 속성 입니다.&lt;/p&gt;
@@ -583,7 +583,7 @@ last_modified_at: 2018-01-31T14:28:50-05:00
 
 &lt;p&gt;사용 예시 )&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images/blogGuide/pointLink.png&quot; alt=&quot;각주&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/blog_guide/pointLink.png&quot; alt=&quot;각주&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;위와 같이 포스트 하단에 해당 링크가 위치하게 됩니다.&lt;/p&gt;
 &lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;

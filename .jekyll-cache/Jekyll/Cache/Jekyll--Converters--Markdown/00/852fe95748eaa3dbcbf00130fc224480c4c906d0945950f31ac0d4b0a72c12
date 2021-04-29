@@ -1,4 +1,4 @@
-I"�<h1 id="마크다운-기본-문법">마크다운 기본 문법</h1>
+I"�<h1 id="마크다운-기본-문법">마크다운 기본 문법</h1>
 
 <h2 id="헤더">헤더</h2>
 
@@ -77,7 +77,7 @@
 </ul>
 
 <p>예 )
-<img src="/images/blogGuide/table.png" alt="table" /></p>
+<img src="/images/blog_guide/table.png" alt="table" /></p>
 
 <h2 id="unordered-lists-nested">Unordered Lists (Nested)</h2>
 
@@ -157,7 +157,7 @@
 </code></pre></div></div>
 
 <p>예 )
-<img src="/images/blogGuide/button.png" alt="button" /></p>
+<img src="/images/blog_guide/button.png" alt="button" /></p>
 
 <h2 id="notices">Notices</h2>
 
@@ -189,7 +189,7 @@
 </code></pre></div></div>
 <p>예 )</p>
 
-<p><img src="/images/blogGuide/notice.png" alt="notice" /></p>
+<p><img src="/images/blog_guide/notice.png" alt="notice" /></p>
 
 <h2 id="link">link</h2>
 

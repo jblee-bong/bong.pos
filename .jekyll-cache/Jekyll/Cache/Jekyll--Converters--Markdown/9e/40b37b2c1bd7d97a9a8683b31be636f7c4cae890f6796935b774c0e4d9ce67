@@ -3,7 +3,7 @@
 <h2 id="이미지-삽입방법">이미지 삽입방법</h2>
 
 <p>이미지를 삽입할 곳에</p>
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>![ex_screenshot](/images/blogGuide/screenshot.png)
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>![ex_screenshot](/images/blog_guide/screenshot.png)
 </code></pre></div></div>
 <p>위처럼 작성하면 됩니다.
 img태그와 비교하자면 [] 블럭은 alt () 블럭은 src 속성 입니다.</p>
