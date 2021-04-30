@@ -1,5 +1,5 @@
 ---
-title: "IOS TestFlight -6- AppStoreConnect에서 앱 생성"
+title: "IOS TestFlight -5- AppStoreConnect에서 앱 생성"
 date: 2021-04-30T00:13:00+09:00
 categories: 
     - IOS
@@ -7,13 +7,13 @@ share: false
 ---
 
 # 페이지 목차
-- 1. [Certificates 인증서 생성 방법]({% post_url /ios_testFlight/2021-04-30-title-1-Certificates-인증서-생성 %})
-- 2. [AppId 등록]({% post_url /ios_testFlight/2021-04-30-title-2-AppId-등록 %})
-- 3. [Device 등록]({% post_url /ios_testFlight/2021-04-30-title-3-Device-등록 %})
-- 4. [Provisioning Profiles 등록]({% post_url /ios_testFlight/2021-04-30-title-4-Provisioning-Profiles-등록 %})
-- 5. AppStoreConnect에서 앱 생성
-- 6. [Project Archive]({% post_url /ios_testFlight/2021-04-30-title-6-Project-Archive-하기 %})
-- 7. [TestFlight를 이용해 테스트]({% post_url /ios_testFlight/2021-04-30-title-7-testFlight를-이용해-테스트 %})
+1. [Certificates 인증서 생성 방법]({% post_url /ios_testFlight/2021-04-30-title-1-Certificates-인증서-생성 %})
+2. [AppId 등록]({% post_url /ios_testFlight/2021-04-30-title-2-AppId-등록 %})
+3. [Device 등록]({% post_url /ios_testFlight/2021-04-30-title-3-Device-등록 %})
+4. [Provisioning Profiles 등록]({% post_url /ios_testFlight/2021-04-30-title-4-Provisioning-Profiles-등록 %})
+5. AppStoreConnect에서 앱 생성
+6. [Project Archive]({% post_url /ios_testFlight/2021-04-30-title-6-Project-Archive-하기 %})
+7. [TestFlight를 이용해 테스트]({% post_url /ios_testFlight/2021-04-30-title-7-testFlight를-이용해-테스트 %})
 
 # 5. 앱스토어 커넥트에 신규 앱 생성하기
 
