@@ -54,8 +54,7 @@ entries_layout: grid
 - eGov Framework, Spring Webmvc, Mybatis, Java, MySQL, JSP
 
 #### ✔️ K-ICT-Bigdata Center 홈페이지 관리자 기능 유지보수, 2021.03 ~ 현재
-- 관리자 페이지, 홈페이지를 구축한 서버에 적용된 Enview Framework 기능 분석
-- Enview Framework 활용 고객 요구사항 추가
+- 관리자 페이지, 홈페이지를 구축한 서버에 적용된 Enview Framework 분석 및 기능 추가
 - Enview Framework, Spring Webmvc, Mybatis, Java, MySQL, JSP
 - <https://kbig.kr/portal/>
 
