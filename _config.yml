@@ -94,6 +94,7 @@ defaults:
       type: posts
     values:
       layout: post
+      classes: wide
       comments: true
       share: true
   # Recipe defaults
