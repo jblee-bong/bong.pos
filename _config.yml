@@ -115,6 +115,9 @@ author:
     - title: GitHub
       url: https://github.com/Geneuin
       icon: fab fa-github-square
+    - title: Blog
+      url: https://geneuin.github.io/
+      icon: fab fa-github-square
 
 # Footer Links
 footer_links:
