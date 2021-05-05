@@ -1,5 +1,5 @@
 ---
-title: About Team Geneuin
+title: ""
 layout: collection
 permalink: /about/
 collection: about

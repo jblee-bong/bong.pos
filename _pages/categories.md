@@ -1,5 +1,5 @@
 ---
-title: Categories
+title: ""
 layout: categories
 permalink: /categories/
 show_excerpts: true
