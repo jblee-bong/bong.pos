@@ -98,13 +98,11 @@ defaults:
       comments: true
       share: true
   - scope:
-      path: "_pages"
-      type: page
+      path: ""
+      type: pages
     values:
-      layout: page
-      classes: wide
-      comments: true
-      share: true
+      layout: single
+      author_profile: true
 
 # Site Author
 author:
