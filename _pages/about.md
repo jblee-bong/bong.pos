@@ -8,11 +8,9 @@ entries_layout: grid
 
 ## Team Geneuin
 안녕하세요, **Team Geneuin** 입니다. 
-
 저희는 현재 SI(System Integration) Team으로 활동하고 있습니다. 
 2020년 4월에 설립한 회사로 활동 기간이 짧습니다. 
 짧은 기간이지만 꼼꼼한 일처리로 많은 프로젝트들을 수주하고 서비스 구축 작업을 수행하고 있습니다. 
-
 현재는 SI Team으로 활동하고 있지만, 
 프로젝트를 통해 얻은 지식과 자본으로 Team Geneuin 자체 서비스 플랫폼을 준비하고 있습니다.
 
@@ -37,12 +35,11 @@ entries_layout: grid
 #### 아워케미(Hourchemi) 서비스 플랫폼 개발 및 서비스 운영, 2020.10 ~ 현재
 - 서비스 설명 필요
 - Vue.js, Spring Boot, Spring Security, Spring Data Jpa, Java, MySQL
-- <http://www.kcindustrial.com/>
+- <https://www.hourchemi.kr>
 
 #### 기억(Remember) SNS 서비스 플랫폼 개발, 2020.10 ~ 현재
 - 자신의 기억을 공유하고, 주변 사람들에게 부고 소식 등을 알릴 수 있는 SNS 서비스 플랫폼
 - Vue.js, Spring Boot, Spring Security, Spring Data Jpa, Java, MySQL
-- <http://www.kcindustrial.com/>
 
 #### KC-Industrial 입출고 시스템 개발, 2020.12 ~ 현재
 - GAS 입출고 관리 시스템 개발
