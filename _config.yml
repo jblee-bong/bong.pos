@@ -111,7 +111,7 @@ author:
   links:
     - title: GitHub
       url: https://github.com/Geneuin
-      icon: fab fa-github-square
+      icon: fab fas fa-blog
     - title: Blog
       url: https://geneuin.github.io/
       icon: fab fa-github-square
