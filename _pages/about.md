@@ -11,7 +11,12 @@ entries_layout: grid
 ## 멤버 소개
 ### 이재봉 - 대표
 
-### <img src="/images/members/junhyunny.jpg" width="30%"/> 강준현 - 백엔드 서버 개발자
+### 강준현 - 백엔드 서버 개발자
+<div>
+    <img src="/images/members/junhyunny.jpg" width="15%"/> 
+</div>
+
+- 자기 소개 테스트
 
 ### 박상길 - 개발자
 
