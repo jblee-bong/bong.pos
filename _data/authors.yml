@@ -1,5 +1,4 @@
-# Sample Authors
-# Remove file or replace with your own
+# Geneuin Team 활동하는 사람들 정보
 
 Billy Rick:
   name: Billy Rick
@@ -31,17 +30,16 @@ gil:
 junhyunny:
   name: Junhyun Kang
   picture: /images/michael-rose-photo.jpg
-  email:
-  # twitter: mmistakes
+  email: kang3966@naver.com
   links:
     # - title: Twitter
     #   url: https://twitter.com/mmistakes
     #   icon: fab fa-twitter-square
-    # - title: Instagram
-    #   url: https://instagram.com/mmistakes
-    #   icon: fab fa-instagram
+    - title: Blog
+      url: https://junhyunny.github.io/
+      icon: fab fa-github-square
     - title: GitHub
-      url: https://github.com/mmistakes
+      url: https://github.com/Junhyunny
       icon: fab fa-github-square
 
 Cornelius Fiddlebone:

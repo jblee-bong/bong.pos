@@ -94,6 +94,7 @@ defaults:
       type: posts
     values:
       layout: post
+      classes: wide
       comments: true
       share: true
   # Recipe defaults
@@ -113,6 +114,9 @@ author:
   links:
     - title: GitHub
       url: https://github.com/Geneuin
+      icon: fab fa-github-square
+    - title: Blog
+      url: https://geneuin.github.io/
       icon: fab fa-github-square
 
 # Footer Links
