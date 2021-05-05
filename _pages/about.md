@@ -1,7 +1,7 @@
 ---
 title: About
 layout: collection
-permalink: /pages/about/
+permalink: /about/
 collection: about
 entries_layout: grid
 classes: wide
