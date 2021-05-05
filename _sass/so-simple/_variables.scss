@@ -39,7 +39,7 @@ $h6-max: ($base-font-size / $modular-scale-2) !default;
 
 /* Font Families */
 $serif-font-family: "Noto Sans KR" !default;
-$sans-serif-font-family: "Noto Sans KR" !default;
+$sans-serif-font-family: "Noto Sans KR", !default;
 $monospace-font-family: Menlo, Consolas, Monaco, "Noto Sans KR", Courier, monospace !default;
 
 $base-font-family: $sans-serif-font-family !default;
