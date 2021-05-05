@@ -69,7 +69,7 @@ entries_layout: grid
 
 <br><br>
 
-## Team Geneuin Skill Stack
+## Team Geneuin Skills
 사용하는 기술 스택 이미지 구성 필요
 
 <br><br>
