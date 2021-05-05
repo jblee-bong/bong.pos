@@ -10,15 +10,15 @@ entries_layout: grid
 안녕하세요, **Team Geneuin** 입니다.
 
 저희는 현재 SI(System Integration) Team으로 활동하고 있습니다. 
-2020년 4월에 설립한 회사로 활동 기간이 짧습니다. 
+2020년 4월에 설립한 회사로 아직은 활동 기간이 길지 않습니다. 
 짧은 기간이지만 꼼꼼한 일처리로 많은 프로젝트들을 수주하고 서비스 구축 작업을 수행하고 있습니다. 
-현재는 SI Team으로 활동하고 있지만, 
+현재는 SI 프로젝트를 수행하고 있지만, 
 프로젝트를 통해 얻은 지식과 자본으로 Team Geneuin 자체 서비스 플랫폼을 준비하고 있습니다.
 
 #### 연혁
 - 2020.04 - (주) Geneuin 설립
 
-<br><br>
+<br>
 
 ## Team Geneuin 활동
 #### VillaM 서비스 플랫폼 개발, 2020.04 ~ 2020.06
@@ -67,12 +67,12 @@ entries_layout: grid
 - 인천 수자원 공사 레거시 시스템 신규 구축
 - eGov Framework, Spring Webmvc, MyBatis, Java, MySQL
 
-<br><br>
+<br>
 
 ## Team Geneuin Skills
 사용하는 기술 스택 이미지 구성 필요
 
-<br><br>
+<br>
 
 ## 지향하는 인재상
 #### 인재상1
