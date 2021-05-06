@@ -1,5 +1,5 @@
 ---
-title: Markup
+title: ""
 layout: tag
 permalink: /tags/markup/
 taxonomy: markup

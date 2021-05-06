@@ -1,13 +1,4 @@
-# Geneuin Team 활동하는 사람들 정보
-
-Billy Rick:
-  name: Billy Rick
-  picture: /images/bio-photo-2.jpg
-  twitter: "@billyrick"
-  links:
-    - title: Twitter
-      url: https://twitter.com/billyrick
-      icon: fab fa-twitter-square
+# Team Geneuin Members
 
 # 박상길
 gil:
@@ -41,8 +32,3 @@ junhyunny:
     - title: GitHub
       url: https://github.com/Junhyunny
       icon: fas fa-blog
-
-Cornelius Fiddlebone:
-  name: Cornelius Fiddlebone
-  picture: /images/bio-photo.jpg
-  twitter: corneliusfiddlebone
