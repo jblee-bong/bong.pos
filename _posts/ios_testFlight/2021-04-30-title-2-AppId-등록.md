@@ -6,7 +6,7 @@ categories:
 share: false
 ---
 
-# 페이지 목차
+### 페이지 목차
 1. [Certificates 인증서 생성 방법]({% post_url /ios_testFlight/2021-04-30-title-1-Certificates-인증서-생성 %})
 2. AppId 등록
 3. [Device 등록]({% post_url /ios_testFlight/2021-04-30-title-3-Device-등록 %})
