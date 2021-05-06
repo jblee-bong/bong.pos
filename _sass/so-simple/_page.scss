@@ -233,6 +233,7 @@
 
   .page-header {
     @include breakpoint($large) {
+      margin-left: 20%;
       grid-column: 1 / -1;
       clear: both; // needed for floated layout
     }
