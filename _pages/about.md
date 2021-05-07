@@ -36,7 +36,7 @@ entries_layout: grid
 - <https://www.jrbaksa.com/main.do>
 
 #### 📋 아워케미(Hourchemi) 서비스 플랫폼 개발 및 서비스 운영, 2020.10 ~ 현재
-- 서비스 설명 필요
+- 일반 모임 프로그램이 아닌, 챌린지를 통하여 모임을 연결해주는 플랫폼
 - Vue.js, Spring Boot, Spring Security, Spring Data Jpa, Java, MySQL
 - <https://www.hourchemi.kr>
 
