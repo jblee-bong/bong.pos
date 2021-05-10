@@ -6,7 +6,7 @@ categories:
 share: false
 ---
 
-# author 작성자
+## author 작성자
 
 루트 경로의 _data 폴더 내의 authors.yml 에 작성자를 정의할 수 있습니다.
 

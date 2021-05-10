@@ -15,9 +15,9 @@ share: false
 6. [Project Archive]({% post_url /ios_testFlight/2021-04-30-title-6-Project-Archive-하기 %})
 7. [TestFlight를 이용해 테스트]({% post_url /ios_testFlight/2021-04-30-title-7-testFlight를-이용해-테스트 %})
 
-# 5. 앱스토어 커넥트에 신규 앱 생성하기
+## 5. 앱스토어 커넥트에 신규 앱 생성하기
 
-## 앱 생성하기
+### 앱 생성하기
 
 ---
 

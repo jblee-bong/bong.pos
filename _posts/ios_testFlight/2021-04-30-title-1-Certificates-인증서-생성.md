@@ -17,7 +17,7 @@ share: false
 
 
 
-# ios 앱 배포 순서
+## ios 앱 배포 순서
 
 1. Certificates 생성 및 실행하여 xcode에 등록
 2. AppID 등록
@@ -26,7 +26,7 @@ share: false
 
 먼저 nativescript cli 의 tns 플러그인 으로 앱을 빌드
 
-## CSR(CertificateSigningRequest) 생성
+### CSR(CertificateSigningRequest) 생성
 
 ---
 
@@ -41,13 +41,13 @@ share: false
 
 - "계속"눌러서 저장
 
-## Key항목에 Public Key와 Private Key생성된 것을 확인
+### Key항목에 Public Key와 Private Key생성된 것을 확인
 
 ---
 
 ![1-3](/images/ios_testFlight/1-3.png)
 
-## 애플 개발자 홈페이지에서 Certificates 생성 및 추가
+### 애플 개발자 홈페이지에서 Certificates 생성 및 추가
 
 ---
 
@@ -81,7 +81,7 @@ share: false
 
 ![1-9](/images/ios_testFlight/1-9.png)
 
-## 다운받은 인증서를 키체인에 등록
+### 다운받은 인증서를 키체인에 등록
 
 ---
 
@@ -91,7 +91,7 @@ share: false
 
 ![1-10](/images/ios_testFlight/1-10.png)
 
-## 인증서와 xcode 프로젝트 연동
+### 인증서와 xcode 프로젝트 연동
 
 - Xcode의 Preference 탭의 Account 에서 Team에 있는 Account Holder 더블 클릭하여 현재 존재하는 인증서 확인하면 완료
 

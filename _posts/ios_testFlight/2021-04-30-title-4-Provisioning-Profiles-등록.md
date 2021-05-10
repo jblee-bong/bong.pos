@@ -16,7 +16,7 @@ share: false
 7. [TestFlight를 이용해 테스트]({% post_url /ios_testFlight/2021-04-30-title-7-testFlight를-이용해-테스트 %})
 
 
-# 4. Provisioning Profiles 등록
+## 4. Provisioning Profiles 등록
 
 ![4-1](/images/ios_testFlight/4-1.png)
 
@@ -49,7 +49,7 @@ share: false
 
 ![4-8](/images/ios_testFlight/4-8.png)
 
-## Xcode에 위에서 받은 Provisioning Profile 등록
+### Xcode에 위에서 받은 Provisioning Profile 등록
 
 ---
 

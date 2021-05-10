@@ -15,9 +15,9 @@ share: false
 6. [Project Archive]({% post_url /ios_testFlight/2021-04-30-title-6-Project-Archive-하기 %})
 7. [TestFlight를 이용해 테스트]({% post_url /ios_testFlight/2021-04-30-title-7-testFlight를-이용해-테스트 %})
 
-# 2. AppId 등록
+## 2. AppId 등록
 
-## Xcode에서 Bundle ID 확인
+### Xcode에서 Bundle ID 확인
 
 ---
 
@@ -25,7 +25,7 @@ share: false
 
 - Bundle ID형식: com.company.appname
 
-## Apple developer에서 App ID 등록
+### Apple developer에서 App ID 등록
 
 ---
 
