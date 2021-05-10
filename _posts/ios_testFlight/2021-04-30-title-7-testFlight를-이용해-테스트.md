@@ -66,3 +66,8 @@ iOS 에서 공식적으로 지원해주는 Beta Testing 도구입니다.
 하지만 내부테스터를 모집해 테스트하기 위함이라면 내부테스터를 추가해줘야 합니다.
 
 
+---
+
+- references: [https://0urtrees.tistory.com/59](https://0urtrees.tistory.com/59), [https://ios-development.tistory.com/246](https://ios-development.tistory.com/246)
+- Written by: 박상길 (fkdl3919@gmail.com)
+- reporting date: 2021-04-19
