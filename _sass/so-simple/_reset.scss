@@ -31,7 +31,7 @@ html {
 
 body {
   margin: 0;
-  line-height: 1.5;
+  line-height: 2;
 }
 
 /**
@@ -64,8 +64,8 @@ blockquote,
 dl,
 table,
 address {
-  margin-top: 0;
-  margin-bottom: 1.5rem;
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
 }
 
 /**
@@ -86,7 +86,7 @@ h1,
 h2,
 h3,
 h4 {
-  line-height: 1.2;
+  line-height: 1.5;
 }
 
 /* Grouping content
@@ -195,7 +195,7 @@ samp {
  */
 
 dfn {
-  font-style: italic;
+  font-style: normal;
 }
 
 /**

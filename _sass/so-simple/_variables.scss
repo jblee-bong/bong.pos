@@ -9,11 +9,11 @@ $large: 1024px !default;
 $xlarge: 1280px !default;
 
 /* Fluid type */
-$base-font-size: 16px !default;
+$base-font-size: 14px !default;
 $min-vw: $small !default;
 $max-vw: $xlarge !default;
-$min-font-size: 16px !default;
-$max-font-size: 18px !default;
+$min-font-size: 14px !default;
+$max-font-size: 16px !default;
 
 /* Calculate Modular Scale */
 $modular-scale-1: 1.067 !default; /* small */
@@ -38,9 +38,9 @@ $h6-min: ($base-font-size / $modular-scale-1) !default;
 $h6-max: ($base-font-size / $modular-scale-2) !default;
 
 /* Font Families */
-$serif-font-family: "Lora", serif !default;
-$sans-serif-font-family: "Source Sans Pro", sans-serif !default;
-$monospace-font-family: Menlo, Consolas, Monaco, "Courier New", Courier, monospace !default;
+$serif-font-family: "Noto Sans KR" !default;
+$sans-serif-font-family: "Noto Sans KR", !default;
+$monospace-font-family: Menlo, Consolas, Monaco, "Noto Sans KR", Courier, monospace !default;
 
 $base-font-family: $sans-serif-font-family !default;
 $headline-font-family: $sans-serif-font-family !default;
@@ -82,10 +82,10 @@ $youtube-color: #bb0000 !default;
 $xing-color: #006567 !default;
 
 /* Max-width of the main content */
-$main-max-width: $medium !default;
+$main-max-width: $xlarge !default;
 
 /* Max-width of the main content + sidebar */
-$main-sidebar-max-width: $large !default;
+$main-sidebar-max-width: $xlarge !default;
 
 /* Site logo */
 $site-logo-width: 75px !default;

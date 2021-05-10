@@ -1,18 +1,8 @@
-# Sample Authors
-# Remove file or replace with your own
-
-Billy Rick:
-  name: Billy Rick
-  picture: /images/bio-photo-2.jpg
-  twitter: "@billyrick"
-  links:
-    - title: Twitter
-      url: https://twitter.com/billyrick
-      icon: fab fa-twitter-square
+# Team Geneuin Members
 
 # 박상길
 gil:
-  name: Sang-gli Park
+  name: Sang-gil Park
   picture: /images/michael-rose-photo.jpg
   email:
   # twitter: mmistakes
@@ -30,21 +20,15 @@ gil:
 # 강준현
 junhyunny:
   name: Junhyun Kang
-  picture: /images/michael-rose-photo.jpg
-  email:
-  # twitter: mmistakes
+  picture: /images/members/junhyunny.jpg
+  email: kang3966@naver.com
   links:
     # - title: Twitter
     #   url: https://twitter.com/mmistakes
     #   icon: fab fa-twitter-square
-    # - title: Instagram
-    #   url: https://instagram.com/mmistakes
-    #   icon: fab fa-instagram
-    - title: GitHub
-      url: https://github.com/mmistakes
+    - title: Blog
+      url: https://junhyunny.github.io/
       icon: fab fa-github-square
-
-Cornelius Fiddlebone:
-  name: Cornelius Fiddlebone
-  picture: /images/bio-photo.jpg
-  twitter: corneliusfiddlebone
+    - title: GitHub
+      url: https://github.com/Junhyunny
+      icon: fas fa-blog
