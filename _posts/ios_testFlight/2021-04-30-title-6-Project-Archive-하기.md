@@ -15,7 +15,7 @@ share: false
 6. Project Archive
 7. [TestFlight를 이용해 테스트]({% post_url /ios_testFlight/2021-04-30-title-7-testFlight를-이용해-테스트 %})
 
-# 6. Project Archive 하기
+## 6. Project Archive 하기
 
 - Xcode 를 킨 상태에서 바탕화면의 맨 위 상단 메뉴 중 Product > Archive 를 선택한다.
 

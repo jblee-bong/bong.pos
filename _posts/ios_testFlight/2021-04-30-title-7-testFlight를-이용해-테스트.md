@@ -15,7 +15,7 @@ share: false
 6. [Project Archive]({% post_url /ios_testFlight/2021-04-30-title-6-Project-Archive-하기 %})
 7. TestFlight를 이용해 테스트
 
-# TestFlight 란?
+## TestFlight 란?
 
 iOS 에서 공식적으로 지원해주는 Beta Testing 도구입니다.
 
@@ -33,14 +33,14 @@ iOS 에서 공식적으로 지원해주는 Beta Testing 도구입니다.
 
 따라서 회사 내부에서 사용하거나, 승인된 아이폰 사용자만 앱을 이용하게 할 경우 활용할 수 있습니다. 
 
-## 사용법
+### 사용법
 
 사용하기에 앞서 앱스토어에 자신의 프로젝트를 Archive하여 업로드 한 상태여야 합니다.
 
 업로드를 마친 상황이라면 테스트를 위해
 [AppStore Connect](https://appstoreconnect.apple.com/) 페이지에 접속합니다.
 
-## 내부테스터 등록
+### 내부테스터 등록
 
 [AppStore Connect](https://appstoreconnect.apple.com/) 페이지에 접속합니다.
 
@@ -66,3 +66,8 @@ iOS 에서 공식적으로 지원해주는 Beta Testing 도구입니다.
 하지만 내부테스터를 모집해 테스트하기 위함이라면 내부테스터를 추가해줘야 합니다.
 
 
+---
+
+- references: [https://0urtrees.tistory.com/59](https://0urtrees.tistory.com/59), [https://ios-development.tistory.com/246](https://ios-development.tistory.com/246)
+- Written by: 박상길 (fkdl3919@gmail.com)
+- reporting date: 2021-04-19

@@ -16,9 +16,9 @@ share: false
 7. [TestFlight를 이용해 테스트]({% post_url /ios_testFlight/2021-04-30-title-7-testFlight를-이용해-테스트 %})
 
 
-# 3. Device 등록
+## 3. Device 등록
 
-## UDID 복사
+### UDID 복사
 
 ---
 
@@ -27,7 +27,7 @@ share: false
 - 테스트 할 device를 맥북에 연결 -> Xcode -> Window -> Devices and Simulators 선택
 - Identifier가 UDID이므로 복사
 
-## UDID 등록
+### UDID 등록
 
 ---
 
